@@ -4,14 +4,43 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.widget.Button;
+import android.widget.RelativeLayout;
+import android.widget.TextView;
+import android.widget.ImageView;
 
 public class StuffAboutMeActivity extends AppCompatActivity {
+//Put pictures into drawable folder to upload them
+    private Button randomFactsButton;
+    private Button acomplishmentsButton;
+    private Button myGoalsButton;
+    private Button scotlandButton;
+    private Button dreamJobButton;
+    private Button exitButton;
+    private TextView aboutMeText;
+    private ImageView aboutMeImage;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_stuff_about_me);
+
+        randomFactsButton = (Button) findViewById(R.id.RandomFactsButton);
+        acomplishmentsButton = (Button) findViewById(R.id.AcomplishmentsButton);
+        myGoalsButton = (Button) findViewById(R.id.MyGoalsButton);
+        scotlandButton = (Button) findViewById(R.id.ScotlandButton);
+        dreamJobButton = (Button) findViewById(R.id.DreamJobButton);
+        exitButton = (Button) findViewById(R.id.ExitButton);
+        aboutMeText = (TextView) findViewById(R.id.ButtonDependentText);
+        aboutMeImage = (ImageView) findViewById(R.id.aboutMeImage);
+
+        setupListeners();
     }
+
+private void setupListeners()
+{
+
+}
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {

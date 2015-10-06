@@ -8,9 +8,11 @@ import android.widget.Button;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
 import android.widget.ImageView;
+import android.view.View;
 
 public class StuffAboutMeActivity extends AppCompatActivity {
 //Put pictures into drawable folder to upload them
+//Create a Sepperate ImageView for each
     private Button randomFactsButton;
     private Button acomplishmentsButton;
     private Button myGoalsButton;
@@ -19,6 +21,7 @@ public class StuffAboutMeActivity extends AppCompatActivity {
     private Button exitButton;
     private TextView aboutMeText;
     private ImageView aboutMeImage;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -39,7 +42,14 @@ public class StuffAboutMeActivity extends AppCompatActivity {
 
 private void setupListeners()
 {
-
+    randomFactsButton.setOnClickListener(new View.OnClickListener()
+    {
+        @Override
+        public void onClick(View buttonView)
+        {
+            changeRandomFacts();
+        }
+    });
 }
 
     @Override
@@ -63,4 +73,13 @@ private void setupListeners()
 
         return super.onOptionsItemSelected(item);
     }
+    private void changeRandomFacts()
+    {
+        //image.setVisibility(View.GONE /OR VISIBLE)
+        aboutMeText.setText(R.string.random_facts);
+    }
+
+
 }
+
+

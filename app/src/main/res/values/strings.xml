@@ -1,4 +1,7 @@
 <resources>
     <string name="app_name">AboutMeAndroid</string>
     <string name="action_settings">Settings</string>
+
+    <string name="random_facts">I\’m obsessed with Alice in Wonderland particularly the queen of hearts. I\’ve dressed up as her for multiple Halloweens, and even own a pair of leggings fashioned in her likeness. I am theming my current prom dress after her even.</string>
+
 </resources>

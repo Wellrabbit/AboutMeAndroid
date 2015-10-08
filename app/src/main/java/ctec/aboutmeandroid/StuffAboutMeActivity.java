@@ -20,7 +20,11 @@ public class StuffAboutMeActivity extends AppCompatActivity {
     private Button dreamJobButton;
     private Button exitButton;
     private TextView aboutMeText;
-    private ImageView aboutMeImage;
+    private ImageView randomFactsImageView;
+    private ImageView acomplishmentsImageView;
+    private ImageView myGoalsImageView;
+    private ImageView scotlandImageView;
+    private ImageView dreamJobImageView;
 
 
     @Override
@@ -35,7 +39,12 @@ public class StuffAboutMeActivity extends AppCompatActivity {
         dreamJobButton = (Button) findViewById(R.id.DreamJobButton);
         exitButton = (Button) findViewById(R.id.ExitButton);
         aboutMeText = (TextView) findViewById(R.id.ButtonDependentText);
-        aboutMeImage = (ImageView) findViewById(R.id.aboutMeImage);
+        randomFactsImageView = (ImageView) findViewById(R.id.randomFactsImage);
+        acomplishmentsImageView = (ImageView) findViewById(R.id.acomplishmentsImage);
+        myGoalsImageView = (ImageView) findViewById(R.id.myGoalsImage);
+        scotlandImageView = (ImageView) findViewById(R.id.ScotlandImage);
+        dreamJobImageView = (ImageView) findViewById(R.id.dreamJobImage);
+
 
         setupListeners();
     }

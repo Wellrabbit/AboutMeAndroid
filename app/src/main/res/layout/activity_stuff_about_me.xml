@@ -93,5 +93,39 @@
     <ImageView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/aboutMeImage" />
+        android:id="@+id/randomFactsImage" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/acomplishmentsImage"
+        android:layout_below="@+id/ButtonDependentText"
+        android:layout_alignRight="@+id/AboutEmilyText"
+        android:layout_alignEnd="@+id/AboutEmilyText"
+        android:layout_marginTop="63dp" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/myGoalsImage"
+        android:layout_below="@+id/acomplishmentsImage"
+        android:layout_toLeftOf="@+id/acomplishmentsImage"
+        android:layout_toStartOf="@+id/acomplishmentsImage" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/ScotlandImage"
+        android:layout_alignBottom="@+id/acomplishmentsImage"
+        android:layout_alignRight="@+id/ExitButton"
+        android:layout_alignEnd="@+id/ExitButton" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/dreamJobImage"
+        android:layout_below="@+id/acomplishmentsImage"
+        android:layout_alignLeft="@+id/ScotlandButton"
+        android:layout_alignStart="@+id/ScotlandButton" />
+
 </RelativeLayout>

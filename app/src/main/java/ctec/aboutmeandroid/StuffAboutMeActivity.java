@@ -118,29 +118,52 @@ private void setupListeners()
     }
     private void changeRandomFacts()
     {
-        //image.setVisibility(View.GONE /OR VISIBLE)
+        randomFactsImageView.setVisibility((View.VISIBLE));
+        acomplishmentsImageView.setVisibility(View.GONE);
+        myGoalsImageView.setVisibility(View.GONE);
+        scotlandImageView.setVisibility(View.GONE);
+        dreamJobImageView.setVisibility(View.GONE);
         aboutMeText.setText(R.string.random_facts);
 
     }
 
     private void changeAccomplishments()
     {
-        //image.setVisibility(View.GONE /OR VISIBLE
+        randomFactsImageView.setVisibility((View.GONE));
+        acomplishmentsImageView.setVisibility(View.VISIBLE);
+        myGoalsImageView.setVisibility(View.GONE);
+        scotlandImageView.setVisibility(View.GONE);
+        dreamJobImageView.setVisibility(View.GONE);
         aboutMeText.setText(R.string.accomplishments);
     }
 
     private void changeMyGoal()
     {
+        randomFactsImageView.setVisibility((View.GONE));
+        acomplishmentsImageView.setVisibility(View.GONE);
+        myGoalsImageView.setVisibility(View.VISIBLE);
+        scotlandImageView.setVisibility(View.GONE);
+        dreamJobImageView.setVisibility(View.GONE);
         aboutMeText.setText(R.string.my_goal);
     }
 
     private void changeScotland()
     {
+        randomFactsImageView.setVisibility((View.GONE));
+        acomplishmentsImageView.setVisibility(View.GONE);
+        myGoalsImageView.setVisibility(View.GONE);
+        scotlandImageView.setVisibility(View.VISIBLE);
+        dreamJobImageView.setVisibility(View.GONE);
         aboutMeText.setText(R.string.scotland);
     }
 
     private void changeDreamJob()
     {
+        randomFactsImageView.setVisibility((View.GONE));
+        acomplishmentsImageView.setVisibility(View.GONE);
+        myGoalsImageView.setVisibility(View.GONE);
+        scotlandImageView.setVisibility(View.GONE);
+        dreamJobImageView.setVisibility(View.VISIBLE);
         aboutMeText.setText(R.string.dream_job);
     }
 

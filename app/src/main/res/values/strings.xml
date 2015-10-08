@@ -3,5 +3,8 @@
     <string name="action_settings">Settings</string>
 
     <string name="random_facts">I\’m obsessed with Alice in Wonderland particularly the queen of hearts. I\’ve dressed up as her for multiple Halloweens, and even own a pair of leggings fashioned in her likeness. I am theming my current prom dress after her even.</string>
-
+    <string name="accomplishments">I won the Aspirations in computer science award from NCWIT. The award is for women in technology fields. This is where I first learned about this course and met Mr. H </string>
+    <string name="my_goal">My goal is to double major in Computer Science and English. Most people would say thats a contradiction however i feel like they use a lot of the same skills. They both take problem solving creativity and critical thinking.</string>
+    <string name="scotland">My grandmother lives in St. Andrews Scotland. I have visited there many times in my life and even spent the last two summers there. I feel that traveling there has given me more culture and made me a more open minded person.</string>
+    <string name="dream_job">I want to work for google some day. Google is the dream for pretty much any reputable computer programmer and I am the same. They offer amazing benefits and do amazing projects around the world.</string>
 </resources>

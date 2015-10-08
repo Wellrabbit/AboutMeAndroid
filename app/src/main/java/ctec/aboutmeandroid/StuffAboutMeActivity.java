@@ -43,11 +43,45 @@ public class StuffAboutMeActivity extends AppCompatActivity {
 private void setupListeners()
 {
     randomFactsButton.setOnClickListener(new View.OnClickListener()
+
     {
         @Override
         public void onClick(View buttonView)
         {
             changeRandomFacts();
+        }
+    });
+    acomplishmentsButton.setOnClickListener(new View.OnClickListener()
+    {
+        @Override
+        public void onClick(View buttonView)
+        {
+            changeAccomplishments();
+        }
+    });
+
+    myGoalsButton.setOnClickListener(new View.OnClickListener() {
+        @Override
+        public void onClick(View buttonView) {
+            changeMyGoal();
+        }
+    });
+
+    scotlandButton.setOnClickListener(new View.OnClickListener()
+    {
+        @Override
+        public void onClick(View buttonView)
+        {
+            changeScotland();
+        }
+    });
+
+    dreamJobButton.setOnClickListener(new View.OnClickListener()
+    {
+        @Override
+        public void onClick(View buttonView)
+        {
+            changeDreamJob();
         }
     });
 }
@@ -77,8 +111,29 @@ private void setupListeners()
     {
         //image.setVisibility(View.GONE /OR VISIBLE)
         aboutMeText.setText(R.string.random_facts);
+
     }
 
+    private void changeAccomplishments()
+    {
+        //image.setVisibility(View.GONE /OR VISIBLE
+        aboutMeText.setText(R.string.accomplishments);
+    }
+
+    private void changeMyGoal()
+    {
+        aboutMeText.setText(R.string.my_goal);
+    }
+
+    private void changeScotland()
+    {
+        aboutMeText.setText(R.string.scotland);
+    }
+
+    private void changeDreamJob()
+    {
+        aboutMeText.setText(R.string.dream_job);
+    }
 
 }
 

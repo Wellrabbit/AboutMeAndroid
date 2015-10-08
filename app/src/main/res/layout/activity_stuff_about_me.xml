@@ -39,9 +39,9 @@
         android:layout_height="wrap_content"
         android:text="My Goals"
         android:id="@+id/MyGoalsButton"
-        android:layout_below="@+id/AcomplishmentsButton"
-        android:layout_toRightOf="@+id/ExitButton"
-        android:layout_toEndOf="@+id/ExitButton" />
+        android:layout_below="@+id/RandomFactsButton"
+        android:layout_alignRight="@+id/ExitButton"
+        android:layout_alignEnd="@+id/ExitButton" />
 
     <Button
         android:layout_width="wrap_content"
